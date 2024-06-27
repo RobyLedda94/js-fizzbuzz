@@ -10,9 +10,13 @@ if (i % 3 === 0) {
     // creo la condizione per determinare che i numeri siano multipli di 5
 } else if (i % 5 === 0) {
     console.log (`${i} Buzz`);
-}    
+
+    // creo la condizione con l'operatore AND cosi combino 2 condizioni 
+} else if (i % 3 === 0 && i % 5=== 0) {
+    console.log (`${i} FizzBuzz`);
 
 
+}  
 
 
 }
